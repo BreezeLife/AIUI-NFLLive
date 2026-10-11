@@ -1,0 +1,30 @@
+Scanning source files in .
+Collected 102 source files
+Loading WASM engine
+WASM engine ready
+Creating WASM source builder
+Transferring files to WASM incrementally
+Finished transferring files to WASM
+Collecting source inputs
+Resolving engine range
+Preparing files for packaging
+Adding file: AGENTS.md
+Adding file: README.md
+Adding file: aiui-audit-claims.json
+Optimized app.js: 330 bytes -> 192 bytes (saved 138 bytes)
+Adding file: app.json
+Adding file: app.wxss
+Adding file: docs/SOURCES.md
+Optimized lib/i18n.js: 4.69 KB -> 4.26 KB (saved 442 bytes)
+Optimized lib/nfl.js: 3.63 KB -> 2.45 KB (saved 1.18 KB)
+Optimized lib/storage.js: 1.09 KB -> 749 bytes (saved 366 bytes)
+Adding file: package.json
+Adding file: pages/home/index.ink
+Adding file: pages/settings/index.ink
+Adding file: pages/splash/index.ink
+Adding file: scripts/generate_audit.py
+Adding file: scripts/package.mjs
+Adding file: scripts/validate.sh
+Optimized tests/nfl.test.js: 1.59 KB -> 1.28 KB (saved 318 bytes)
+Finalizing package archive
+Package created: artifacts/nfl-live-en-ja-ko-zh.aix (44.89 KB)

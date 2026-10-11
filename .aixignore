@@ -1,0 +1,5 @@
+.git/
+.aiui-evidence/
+artifacts/*.sha256
+artifacts/*.aix
+node_modules/

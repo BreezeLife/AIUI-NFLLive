@@ -1,0 +1,1154 @@
+{
+  "claimedCapabilities": [
+    "event.bindtap@event-bindtap-08ea2587d41e",
+    "event.bindtap@event-bindtap-09b61a26a812",
+    "event.bindtap@event-bindtap-0f8e56f86617",
+    "event.bindtap@event-bindtap-1a4d522a0fdd",
+    "event.bindtap@event-bindtap-1a813f5d1ed4",
+    "event.bindtap@event-bindtap-361fc833e73b",
+    "event.bindtap@event-bindtap-53163c5a7c03",
+    "event.bindtap@event-bindtap-9ac3147cee63",
+    "event.bindtap@event-bindtap-a492a6a47b4e",
+    "event.bindtap@event-bindtap-abe78ac99fb5",
+    "event.bindtap@event-bindtap-d72e87c2129b",
+    "event.bindtap@event-bindtap-e20ab5b94843",
+    "event.bindtap@event-bindtap-ff4f8e2b98ca",
+    "focus.host@focus-host-60cdfb71e178",
+    "focus.host@focus-host-6ab5428467a5",
+    "focus.host@focus-host-92b31379690b",
+    "focus.host@focus-host-a01fb232f586",
+    "focus.host@focus-host-c72e63418743",
+    "focus.host@focus-host-e0f2128150b8",
+    "input.enter@input-enter-887c724b8b03",
+    "page.lifecycle@page-lifecycle-0a0542143d43",
+    "page.lifecycle@page-lifecycle-1200050a7a12",
+    "page.lifecycle@page-lifecycle-1c0323628070",
+    "page.lifecycle@page-lifecycle-221bfc820b89",
+    "page.lifecycle@page-lifecycle-24c31194d4b7",
+    "page.lifecycle@page-lifecycle-3a28ff33314b",
+    "page.lifecycle@page-lifecycle-8739463eb017",
+    "page.lifecycle@page-lifecycle-8c9f037941d6",
+    "page.lifecycle@page-lifecycle-910a711d8fab",
+    "page.lifecycle@page-lifecycle-e7211ef8d83d",
+    "page.lifecycle@page-lifecycle-e961595e2495",
+    "page.lifecycle@page-lifecycle-f5e98f61e2c6",
+    "page.route@page-route-47b142b3081d",
+    "page.route@page-route-7375bb81eb4b",
+    "page.route@page-route-774e0f6a89a7",
+    "page.target@page-target-3ae3379c1371",
+    "page.target@page-target-535fce7fccbd",
+    "page.target@page-target-f9d8c153c552",
+    "project.unregistered@unregistered-140596c0fc73",
+    "project.unregistered@unregistered-4b53521b0f65",
+    "project.unregistered@unregistered-b0286ad4d092",
+    "project.unregistered@unregistered-bbc7c7fadeb3",
+    "project.unregistered@unregistered-bc68ef9e4202",
+    "project.unregistered@unregistered-cbee8f0b8eaa",
+    "project.unregistered@unregistered-e4faeabe996b",
+    "project.unregistered@unregistered-f1246c8076ec",
+    "project.unregistered@unregistered-f1a637a80998",
+    "ui.button@ui-button-04f036ce8937",
+    "ui.button@ui-button-2fd2e8623685",
+    "ui.button@ui-button-30f0207fe2b8",
+    "ui.button@ui-button-4ca7aa691c67",
+    "ui.button@ui-button-59cd374f3820",
+    "ui.button@ui-button-78e593dc4f30",
+    "ui.button@ui-button-d1490cc3a00f",
+    "ui.button@ui-button-d5cb75941035",
+    "ui.button@ui-button-e8b9a49a06e8",
+    "ui.button@ui-button-faced6199c26",
+    "ui.button@ui-button-fdc68253a1ef"
+  ],
+  "claimsLedger": {
+    "claimCount": 0,
+    "path": "aiui-audit-claims.json",
+    "present": true,
+    "scopeClosed": true,
+    "sha256": "31ba3abb221c18d0b2330341ae9f6a2d93bb67a9c3d0118e5d4c270ee7dd2a17"
+  },
+  "inputGates": [
+    {
+      "family": "input.enter",
+      "gate": "input-enter-887c724b8b03",
+      "kind": "enter"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-08ea2587d41e",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-09b61a26a812",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-0f8e56f86617",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-1a4d522a0fdd",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-1a813f5d1ed4",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-361fc833e73b",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-53163c5a7c03",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-9ac3147cee63",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-a492a6a47b4e",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-abe78ac99fb5",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-d72e87c2129b",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-e20ab5b94843",
+      "kind": "tap"
+    },
+    {
+      "family": "event.bindtap",
+      "gate": "event-bindtap-ff4f8e2b98ca",
+      "kind": "tap"
+    }
+  ],
+  "items": [
+    {
+      "apiBinding": "bindtap=selectTab",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-08ea2587d41e",
+      "locations": [
+        {
+          "column": 244,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=selectTab",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=demo",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-09b61a26a812",
+      "locations": [
+        {
+          "column": 664,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=demo",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=selectTab",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-0f8e56f86617",
+      "locations": [
+        {
+          "column": 497,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=selectTab",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=setup",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-1a4d522a0fdd",
+      "locations": [
+        {
+          "column": 164,
+          "line": 44,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=setup",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=live",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-1a813f5d1ed4",
+      "locations": [
+        {
+          "column": 560,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=live",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=selectTab",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-361fc833e73b",
+      "locations": [
+        {
+          "column": 119,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=selectTab",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=selectTab",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-53163c5a7c03",
+      "locations": [
+        {
+          "column": 373,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=selectTab",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=back",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-9ac3147cee63",
+      "locations": [
+        {
+          "column": 100,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=back",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=changeLanguage",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-a492a6a47b4e",
+      "locations": [
+        {
+          "column": 365,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=changeLanguage",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=chooseGame",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-abe78ac99fb5",
+      "locations": [
+        {
+          "column": 352,
+          "line": 41,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=chooseGame",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=start",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-d72e87c2129b",
+      "locations": [
+        {
+          "column": 24,
+          "line": 22,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=start",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=refresh",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-e20ab5b94843",
+      "locations": [
+        {
+          "column": 207,
+          "line": 40,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=refresh",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "bindtap=setup",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "event.bindtap",
+      "gate": "event-bindtap-ff4f8e2b98ca",
+      "locations": [
+        {
+          "column": 139,
+          "line": 38,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "bindtap=setup",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "onHostBlur()",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "focus.host",
+      "gate": "focus-host-60cdfb71e178",
+      "locations": [
+        {
+          "column": 44,
+          "line": 12,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "onHostBlur",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "onHostBlur()",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "focus.host",
+      "gate": "focus-host-6ab5428467a5",
+      "locations": [
+        {
+          "column": 75,
+          "line": 15,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "onHostBlur",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "onHostBlur()",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "focus.host",
+      "gate": "focus-host-92b31379690b",
+      "locations": [
+        {
+          "column": 56,
+          "line": 14,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "onHostBlur",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "onHostFocus()",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "focus.host",
+      "gate": "focus-host-a01fb232f586",
+      "locations": [
+        {
+          "column": 3,
+          "line": 14,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "onHostFocus",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "onHostFocus()",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "focus.host",
+      "gate": "focus-host-c72e63418743",
+      "locations": [
+        {
+          "column": 3,
+          "line": 15,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "onHostFocus",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "onHostFocus()",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "focus.host",
+      "gate": "focus-host-e0f2128150b8",
+      "locations": [
+        {
+          "column": 3,
+          "line": 12,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "onHostFocus",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "onKeyUp(event.code=Enter)",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "input.enter",
+      "gate": "input-enter-887c724b8b03",
+      "locations": [
+        {
+          "column": 24,
+          "line": 18,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "onKeyUp(event.code=Enter)",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onUnload",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-0a0542143d43",
+      "locations": [
+        {
+          "column": 76,
+          "line": 11,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onUnload",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onHide",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-1200050a7a12",
+      "locations": [
+        {
+          "column": 39,
+          "line": 11,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onHide",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onLoad",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-1c0323628070",
+      "locations": [
+        {
+          "column": 3,
+          "line": 10,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onLoad",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onHide",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-221bfc820b89",
+      "locations": [
+        {
+          "column": 3,
+          "line": 12,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onHide",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onShow",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-24c31194d4b7",
+      "locations": [
+        {
+          "column": 3,
+          "line": 11,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onShow",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onLoad",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-3a28ff33314b",
+      "locations": [
+        {
+          "column": 3,
+          "line": 10,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onLoad",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onShow",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-8739463eb017",
+      "locations": [
+        {
+          "column": 3,
+          "line": 12,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onShow",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onHide",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-8c9f037941d6",
+      "locations": [
+        {
+          "column": 3,
+          "line": 13,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onHide",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onUnload",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-910a711d8fab",
+      "locations": [
+        {
+          "column": 3,
+          "line": 14,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onUnload",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onLoad",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-e7211ef8d83d",
+      "locations": [
+        {
+          "column": 3,
+          "line": 11,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onLoad",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onShow",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-e961595e2495",
+      "locations": [
+        {
+          "column": 3,
+          "line": 11,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onShow",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "CALLBACK:onUnload",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.lifecycle",
+      "gate": "page-lifecycle-f5e98f61e2c6",
+      "locations": [
+        {
+          "column": 3,
+          "line": 13,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "CALLBACK:onUnload",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "app.json#pages:pages/splash/index",
+      "declarationBinding": "pages",
+      "family": "page.route",
+      "gate": "page-route-47b142b3081d",
+      "locations": [
+        {
+          "column": 1,
+          "line": 1,
+          "path": "app.json"
+        }
+      ],
+      "mechanism": "app.json#pages:pages/splash/index",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "app.json#pages:pages/settings/index",
+      "declarationBinding": "pages",
+      "family": "page.route",
+      "gate": "page-route-7375bb81eb4b",
+      "locations": [
+        {
+          "column": 1,
+          "line": 3,
+          "path": "app.json"
+        }
+      ],
+      "mechanism": "app.json#pages:pages/settings/index",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "app.json#pages:pages/home/index",
+      "declarationBinding": "pages",
+      "family": "page.route",
+      "gate": "page-route-774e0f6a89a7",
+      "locations": [
+        {
+          "column": 1,
+          "line": 2,
+          "path": "app.json"
+        }
+      ],
+      "mechanism": "app.json#pages:pages/home/index",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "target:_current",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.target",
+      "gate": "page-target-3ae3379c1371",
+      "locations": [
+        {
+          "column": 16,
+          "line": 35,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "target:_current",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "target:_current",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.target",
+      "gate": "page-target-535fce7fccbd",
+      "locations": [
+        {
+          "column": 16,
+          "line": 25,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "target:_current",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "target:_current",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "page.target",
+      "gate": "page-target-f9d8c153c552",
+      "locations": [
+        {
+          "column": 16,
+          "line": 49,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "target:_current",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:App.onLaunch",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-140596c0fc73",
+      "locations": [
+        {
+          "column": 3,
+          "line": 9,
+          "path": "app.js"
+        }
+      ],
+      "mechanism": "App.onLaunch",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:clearTimeout(...)",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-4b53521b0f65",
+      "locations": [
+        {
+          "column": 41,
+          "line": 15,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "clearTimeout(...)",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:clearTimeout(...)",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-b0286ad4d092",
+      "locations": [
+        {
+          "column": 38,
+          "line": 17,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "clearTimeout(...)",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:<small>",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-bbc7c7fadeb3",
+      "locations": [
+        {
+          "column": 452,
+          "line": 42,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<small>",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:setTimeout(...)",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-bc68ef9e4202",
+      "locations": [
+        {
+          "column": 152,
+          "line": 16,
+          "path": "pages/splash/index.ink"
+        }
+      ],
+      "mechanism": "setTimeout(...)",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:app.json#window.navigationBarTitleText=NFL Live",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-cbee8f0b8eaa",
+      "locations": [
+        {
+          "column": 1,
+          "line": 1,
+          "path": "app.json"
+        }
+      ],
+      "mechanism": "app.json#window.navigationBarTitleText=NFL Live",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:media-cleanup-association",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-e4faeabe996b",
+      "locations": [
+        {
+          "column": 37,
+          "line": 13,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "media-cleanup-association",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:CONFIGURATION:package.json",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-f1246c8076ec",
+      "locations": [
+        {
+          "column": 1,
+          "line": 1,
+          "path": "package.json"
+        }
+      ],
+      "mechanism": "CONFIGURATION:package.json",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "PROJECT-SYMBOL:setTimeout(...)",
+      "declarationBinding": "UNKNOWN — source policy not registered",
+      "family": "project.unregistered",
+      "gate": "unregistered-f1a637a80998",
+      "locations": [
+        {
+          "column": 87,
+          "line": 18,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "setTimeout(...)",
+      "policyState": "unregistered",
+      "versionFeature": "unresolved"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-04f036ce8937",
+      "locations": [
+        {
+          "column": 290,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-2fd2e8623685",
+      "locations": [
+        {
+          "column": 601,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-30f0207fe2b8",
+      "locations": [
+        {
+          "column": 137,
+          "line": 44,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-4ca7aa691c67",
+      "locations": [
+        {
+          "column": 92,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-59cd374f3820",
+      "locations": [
+        {
+          "column": 163,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-78e593dc4f30",
+      "locations": [
+        {
+          "column": 118,
+          "line": 38,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-d1490cc3a00f",
+      "locations": [
+        {
+          "column": 42,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-d5cb75941035",
+      "locations": [
+        {
+          "column": 420,
+          "line": 39,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-e8b9a49a06e8",
+      "locations": [
+        {
+          "column": 230,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-faced6199c26",
+      "locations": [
+        {
+          "column": 183,
+          "line": 40,
+          "path": "pages/home/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    },
+    {
+      "apiBinding": "<button ...>",
+      "declarationBinding": "NONE REQUIRED",
+      "family": "ui.button",
+      "gate": "ui-button-fdc68253a1ef",
+      "locations": [
+        {
+          "column": 497,
+          "line": 21,
+          "path": "pages/settings/index.ink"
+        }
+      ],
+      "mechanism": "<button>",
+      "policyState": "registered",
+      "versionFeature": "stable-0.17"
+    }
+  ],
+  "policyVersion": "aiui-0.17-policy-v1",
+  "projectRevision": "WORKTREE:7c5f97c8585fcc57a1bd1ef56c84b3f90547b1790e23193a049df640f966ed68",
+  "schemaVersion": 2,
+  "supportedSurfaces": [
+    "Page",
+    "_current"
+  ],
+  "targetVersion": "0.17.0",
+  "unmatchedSymbols": [
+    {
+      "column": 3,
+      "family": "project.unregistered",
+      "gate": "unregistered-140596c0fc73",
+      "line": 9,
+      "path": "app.js",
+      "symbol": "App.onLaunch"
+    },
+    {
+      "column": 41,
+      "family": "project.unregistered",
+      "gate": "unregistered-4b53521b0f65",
+      "line": 15,
+      "path": "pages/splash/index.ink",
+      "symbol": "clearTimeout"
+    },
+    {
+      "column": 38,
+      "family": "project.unregistered",
+      "gate": "unregistered-b0286ad4d092",
+      "line": 17,
+      "path": "pages/home/index.ink",
+      "symbol": "clearTimeout"
+    },
+    {
+      "column": 452,
+      "family": "project.unregistered",
+      "gate": "unregistered-bbc7c7fadeb3",
+      "line": 42,
+      "path": "pages/home/index.ink",
+      "symbol": "<small>"
+    },
+    {
+      "column": 152,
+      "family": "project.unregistered",
+      "gate": "unregistered-bc68ef9e4202",
+      "line": 16,
+      "path": "pages/splash/index.ink",
+      "symbol": "setTimeout"
+    },
+    {
+      "column": 1,
+      "family": "project.unregistered",
+      "gate": "unregistered-cbee8f0b8eaa",
+      "line": 1,
+      "path": "app.json",
+      "symbol": "app.json#window.navigationBarTitleText=NFL Live"
+    },
+    {
+      "column": 37,
+      "family": "project.unregistered",
+      "gate": "unregistered-e4faeabe996b",
+      "line": 13,
+      "path": "pages/home/index.ink",
+      "symbol": "media-cleanup-association"
+    },
+    {
+      "column": 1,
+      "family": "project.unregistered",
+      "gate": "unregistered-f1246c8076ec",
+      "line": 1,
+      "path": "package.json",
+      "symbol": "CONFIGURATION:package.json"
+    },
+    {
+      "column": 87,
+      "family": "project.unregistered",
+      "gate": "unregistered-f1a637a80998",
+      "line": 18,
+      "path": "pages/home/index.ink",
+      "symbol": "setTimeout"
+    }
+  ],
+  "versionViolations": []
+}

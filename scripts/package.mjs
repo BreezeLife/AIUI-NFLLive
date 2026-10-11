@@ -1,0 +1,15 @@
+import { execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+const root = fileURLToPath(new URL('..', import.meta.url));
+mkdirSync(root + '/artifacts', { recursive: true });
+const out = 'artifacts/nfl-live-en-ja-ko-zh.aix';
+const run = args => execFileSync('npx', ['--yes', '--package', '@yodaos-pkg/aix-cli@0.8.2', 'aix', ...args], { cwd: root, encoding: 'utf8' });
+const help = run(['--help']);
+if (!help.includes('aix pack') || !help.includes('aix list')) throw new Error('AIX CLI does not advertise pack/list');
+const packed = run(['pack', '.', '-o', out, '--engine', '^0.17.0']);
+const listing = run(['list', out]);
+for (const entry of listing.split(/\r?\n/).map(line => line.trim().toLowerCase())) if (entry === '.git' || entry.startsWith('.git/') || entry === '.aiui-evidence' || entry.startsWith('.aiui-evidence/')) throw new Error('Reserved content leaked into AIX');
+for (const required of ['app.json', 'app.js', 'pages/splash/index.ink', 'pages/home/index.ink', 'pages/settings/index.ink', 'lib/nfl.js']) if (!listing.includes(required)) throw new Error(`Missing AIX entry: ${required}`);
+const hash = createHash('sha256').update(readFileSync(root + '/' + out)).digest('hex'); writeFileSync(root + '/' + out + '.sha256', `${hash}  nfl-live-en-ja-ko-zh.aix\n`); writeFileSync(root + '/.aiui-evidence/aix-list.log', listing); writeFileSync(root + '/.aiui-evidence/aix-pack.log', packed); console.log(packed.trim()); console.log(listing.trim()); console.log(`SHA-256 ${hash}`);

@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/splash/index",
+    "pages/home/index",
+    "pages/settings/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "NFL Live"
+  }
+}

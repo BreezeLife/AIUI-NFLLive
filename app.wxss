@@ -1,0 +1,3 @@
+page { background-color: #000000; color: #00ff66; font-family: sans-serif; }
+button { color: #00ff66; background-color: #001b0b; border: 1px solid #008536; border-radius: 4px; font-size: 14px; padding: 5px 9px; }
+button:focus { border: 2px solid #00ff66; background-color: #001f0d; }
